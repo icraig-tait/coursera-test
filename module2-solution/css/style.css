@@ -1,0 +1,111 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #FFFFFF;  /*white*/
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #000000;             /*font black*/
+}
+
+.pTitle {
+	font-size: 125%;
+	position: absolute;	
+	top: 0;
+	right: 0;
+	float: right;
+	width: 8em;
+	text-align: center;
+	margin: 0;
+}
+.pTitle1{
+	background-color: #FF80FF;	/*light magenta*/
+	color: #000000; 			      /*font black*/
+}
+.pTitle2{
+	background-color: #FF0000; 	/*red*/
+	color: #FFFFFF; 			      /*font white*/
+}
+.pTitle3{
+	background-color: #FFFF80; 	/*yellow*/
+	color: #000000; 			      /*font black*/
+}
+
+.pBody {
+	position: relative;
+	float: left;
+	top:0;
+	left:0;
+	background-color: #C0C0C0; /*grey*/
+	padding: 2em 1em 1em 1em;
+	height: 8em;
+	overflow: hidden;
+	text-overflow: clip;	
+}
+
+h1 {
+	text-align: center;
+	background-color: #FFFFFF; /*white*/
+	margin-bottom: 15px;
+}
+
+.row {
+	width: 100%;	
+	position: relative;
+}
+.holder {
+  position: relative;
+}
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    border: none;
+    padding: 1em;
+    position: relative;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: none;
+    padding: 1em;
+    position: relative;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
+
+/********** Small devices **********/
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+    border: none;
+    padding: 1em;	
+    position: relative;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+}
+
+.col-F{
+	  float: left;
+    border: none;
+    padding: 1em;	
+    position: relative;
+ 
+}
