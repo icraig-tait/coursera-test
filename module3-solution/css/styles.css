@@ -1,0 +1,48 @@
+body {
+	color: #180018;
+}
+
+.navbar-default .navbar-brand{
+	color: #000;				/* Main Brand text color : black */
+	font-size: 1.5em;
+}
+
+.navbar-default {				/* Main border,bgnd color :  */
+	border-color: #000;
+	background-color: #C0C0C0;
+}
+
+.navbar-collapse ul {
+	border: 1px solid #000;		/* black border around list */
+}
+
+.navbar-collapse ul li {
+	text-align: center;
+	padding: 0;
+	margin: 0;	
+	background-color: #FFFFFF;
+}
+
+.navbar-nav {
+	margin:0 -15px;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+hr {	
+	height: 1px;
+	width: 95%;
+	margin: 0 auto 0;
+	background-color: #000;		/* black line separator in list*/
+	border:none;
+}
+
+.row div  {
+	background-color: #808080;
+	height: 1000px;
+	padding: 1em;
+	margin: 15px;
+	
+}
